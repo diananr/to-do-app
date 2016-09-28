@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	text-align: center;
+	background-color: #ff5f2e;
+	padding: 2%;
+}
+#contNuevo{
+	width: 100%;
+	padding: 10px 0;
+}
+#textArea{
+	width: 100%;
+	padding: 1%;
+	word-wrap: break-word;
+}
+#btn{
+	background-color: #004e66;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 1%;
+}
+#listaTarea{
+	width: 100%;
+	height: 200px;
+   	overflow: auto;
+}
+.cadaTarea{
+	border-radius: 5px;
+	background-color: #e1eef6;
+	width: 100%;
+	padding: 1%;
+	margin: 1% 0;
+}
+.checki{
+	margin: 1%;
+}
+.tachado{
+	text-decoration:line-through;
+}
+.tacho{
+	display: inline-block;
+	background-color: #E53A40;
+	float: right;
+	border: none;
+	border-radius: 2px;
+	padding: 2px;
+}
