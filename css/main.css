@@ -7,6 +7,8 @@ header{
 	text-align: center;
 	background-color: #ff5f2e;
 	padding: 2%;
+	font-weight: bold;
+	font-size: 40px;
 }
 #contNuevo{
 	width: 100%;
@@ -43,7 +45,6 @@ header{
 	text-decoration:line-through;
 }
 .tacho{
-	display: inline-block;
 	background-color: #E53A40;
 	float: right;
 	border: none;

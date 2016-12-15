@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
 	var cajaTareas = document.getElementById("listaTarea");
 
 	areaTexto.addEventListener("keyup", function(){
-		if(areaTexto.value.trim().length == 0 || areaTexto.value.trim() == "" ){
+		if(areaTexto.value.trim().length === 0 || areaTexto.value.trim() === ""){
 			btnAgregar.disabled = true;
 		}
 		else
